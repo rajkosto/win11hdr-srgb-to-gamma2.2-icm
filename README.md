@@ -53,12 +53,12 @@ An accurate curve mapping does depend on Window's _SDR content brightness_ value
 
 <h2 id='icm-dl'>Download srgb_to_gamma2p2 color profile</h2>
 
-- [100 nits / Brightness 5](https://github.com/dylanraga/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_100_mhc2.icm)
-- [200 nits / Brightness 30](https://github.com/dylanraga/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_200_mhc2.icm)
-- [300 nits / Brightness 55](https://github.com/dylanraga/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_300_mhc2.icm)
-- [400 nits / Brightness 80](https://github.com/dylanraga/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_400_mhc2.icm)
-- [Unspecified](https://github.com/dylanraga/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_unspecified.icm)
-- [SDR](https://github.com/dylanraga/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_sdr.icm)
+- [100 nits / Brightness 5](https://github.com/rajkosto/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_100_mhc2.icm)
+- [200 nits / Brightness 30](https://github.com/rajkosto/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_200_mhc2.icm)
+- [300 nits / Brightness 55](https://github.com/rajkosto/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_300_mhc2.icm)
+- [400 nits / Brightness 80](https://github.com/rajkosto/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_400_mhc2.icm)
+- [Unspecified](https://github.com/rajkosto/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_unspecified.icm)
+- [SDR](https://github.com/rajkosto/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_sdr.icm)
 
 ## Instructions
 
@@ -116,9 +116,9 @@ An AutoHotkey script has also been created by [@mspeedo](https://github.com/mspe
 
 - The gamma ramp correction will persist when toggling HDR (including via the keyboard shortcut), making SDR appear darker. When disabling HDR, make sure to re-apply your SDR color profile in the Color Management utility ("Set as Default Profile"). Likewise, when re-enabling HDR, make sure to re-apply the corrective color profile. If you don't have an SDR color profile, press "Add" and select _sRGB IEC61966-2.1_ as your default profile.
 - If you have an NVIDIA GPU, make sure the NVCP desktop color settings is set to "Accurate" or "Enhanced" mode; the correction will not apply in "Reference" mode.
-- All profiles are tagged with a peak luminance of 800 nits and a black level of 0
+- All profiles are tagged with a peak luminance of 460 nits and a black level of 0
 - Pixel values above diffuse SDR white are untouched; a soft shoulder was added toward unity to blend the curve mapping with HDR values
-- Tested on an LG C2 OLED
+- Tested on 2024 QD-OLED monitors (AW2725DF and FO32U2) in TrueBlack 400 HDR mode
 
 <hr>
 
