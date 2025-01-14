@@ -55,8 +55,10 @@ An accurate curve mapping does depend on Window's _SDR content brightness_ value
 
 - [100 nits / Brightness 5](https://github.com/rajkosto/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_100_mhc2.icm)
 - [200 nits / Brightness 30](https://github.com/rajkosto/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_200_mhc2.icm)
+- [270 nits / Brightness 48](https://github.com/rajkosto/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_270_mhc2.icm)
 - [300 nits / Brightness 55](https://github.com/rajkosto/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_300_mhc2.icm)
 - [400 nits / Brightness 80](https://github.com/rajkosto/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_400_mhc2.icm)
+- [460 nits / Brightness 95](https://github.com/rajkosto/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_460_mhc2.icm)
 - [Unspecified](https://github.com/rajkosto/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_unspecified.icm)
 - [SDR](https://github.com/rajkosto/win11hdr-srgb-to-gamma2.2-icm/raw/main/srgb_to_gamma2p2_sdr.icm)
 
@@ -108,8 +110,10 @@ An AutoHotkey script has also been created by [@mspeedo](https://github.com/mspe
 | 5                    | 100 nits                   |
 | 10                   | 120 nits                   |
 | 30                   | 200 nits                   |
+| 48                   | 270 nits                   |
 | 55                   | 300 nits                   |
 | 80                   | 400 nits                   |
+| 95                   | 460 nits                   |
 | 100                  | 480 nits                   |
 
 ## Notes
